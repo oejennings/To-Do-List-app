@@ -26,13 +26,13 @@ function newItem(){
       li.append(crossOutButton);
 
      //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
-     
+
       crossOutButton.on('click', function deleteListItem(){
         li.addClass('delete');
       });
 
          
      // 4. Reordering the items: 
-    //    $('#list').sortable();
+       $('#list').sortable();
     
     }
